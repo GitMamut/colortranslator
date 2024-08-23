@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="colortranslator">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-08-23T13:29:29.092958600Z">
+        <DropdownSelection timestamp="2024-08-23T17:05:47.612952700Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\vatie\.android\avd\Medium_Phone_API_35.avd" />

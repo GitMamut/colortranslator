@@ -10,6 +10,8 @@ import android.view.SurfaceView;
 import android.widget.ImageView;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.Optional;
 
 import static android.content.ContentValues.TAG;
 import static com.mintfrost.colortranslator2.GraphicalTools.decodeYUV420SP;
@@ -78,6 +80,13 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 
     public void setFlashlightMode(boolean enabled) {
         Camera.Parameters parameters = mCamera.getParameters();
+        boolean hasTorchMode = Optional.ofNullable(parameters.getSupportedFlashModes())
+                .map(x -> x.contains(Camera.Parameters.FLASH_MODE_TORCH))
+                .isPresent();
+        if (!hasTorchMode) {
+            Log.e(TAG, "Flash torch mode not supported");
+            return;
+        }
         if (enabled) {
             parameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
         } else {
