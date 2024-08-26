@@ -1,4 +1,4 @@
-package com.mintfrost.colortranslator2;
+package com.mintfrost.colortranslator3;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.mintfrost.colortranslator2", appContext.getPackageName());
+        assertEquals("com.mintfrost.colortranslator3", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.mintfrost.colortranslator2;
+package com.mintfrost.colortranslator3;
 
 import android.Manifest;
 import android.content.ClipData;
@@ -49,7 +49,27 @@ public class MainActivity extends AppCompatActivity {
             "This is <strong>%s</strong>. An impressionist painter would call it '<strong>%s</strong>'. %s",
             "This is <strong>%s</strong>, an ardent florist would call it '<strong>%s</strong>'. %s",
             "This looks like one of the 50 shades of <strong>%s</strong>. More precisely it is '<strong>%s</strong>'. %s",
-            "Did you think this is <strong>%s</strong>? More like '<strong>%s</strong>'! %s"
+            "Did you think this is <strong>%s</strong>? More like '<strong>%s</strong>'! %s",
+            "This is <strong>%s</strong>. But if you want to sound fancy, call it '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. If it were a paint swatch, it’d be called '<strong>%s</strong>'. %s",
+            "You see <strong>%s</strong>, but the marketing team calls it '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. In a high-end boutique, they'd probably sell it as '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. But in the world of Instagram influencers, it’s definitely '<strong>%s</strong>'. %s",
+            "You call it <strong>%s</strong>, but the overly descriptive crayon label says '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. Somewhere, a posh wedding planner is calling it '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. But let's be real, a mood lighting expert would name it '<strong>%s</strong>'. %s",
+            "Looks like <strong>%s</strong>, but in a paint shop with 3 aisles of options, it's definitely '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. But in a pretentious art gallery, it’d be '<strong>%s</strong>'. %s",
+            "You might say <strong>%s</strong>, but in the world of expensive throw pillows, it's called '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. But trust me, on a makeup palette, it’s labeled '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. A poet might get creative and call it '<strong>%s</strong>'. %s",
+            "You see <strong>%s</strong>. A coffee shop menu board would name it something like '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. But in the universe of ridiculously overpriced scarves, it's known as '<strong>%s</strong>'. %s",
+            "Looks like <strong>%s</strong>. But a luxury car catalog would call it '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. Somewhere, an eccentric candle maker is labeling it '<strong>%s</strong>'. %s",
+            "Is this <strong>%s</strong>? Maybe, but in the realm of abstract art, it's called '<strong>%s</strong>'. %s",
+            "This is <strong>%s</strong>. But if it had a designer handbag counterpart, it’d be named '<strong>%s</strong>'. %s",
+            "You call it <strong>%s</strong>, but if you were a wine sommelier, you'd insist on '<strong>%s</strong>'. %s"
     };
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
     private static int CAMERA_REQUEST_CODE = 1;

@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Colortranslator2.iml" filepath="$PROJECT_DIR$/Colortranslator2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/colortranslator/Colortranslator2.colortranslator.iml" filepath="$PROJECT_DIR$/.idea/modules/colortranslator/Colortranslator2.colortranslator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/colortranslator/Colortranslator2.colortranslator.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/colortranslator/Colortranslator2.colortranslator.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/colortranslator/Colortranslator2.colortranslator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/colortranslator/Colortranslator2.colortranslator.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/colortranslator/Colortranslator2.colortranslator.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/colortranslator/Colortranslator2.colortranslator.unitTest.iml" />
     </modules>

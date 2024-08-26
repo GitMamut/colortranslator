@@ -1,4 +1,4 @@
-package com.mintfrost.colortranslator2;
+package com.mintfrost.colortranslator3;
 
 /**
  * Created by Przemek on 14.12.2017.

@@ -1,4 +1,4 @@
-package com.mintfrost.colortranslator2;
+package com.mintfrost.colortranslator3;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -14,8 +14,8 @@ import java.util.List;
 import java.util.Optional;
 
 import static android.content.ContentValues.TAG;
-import static com.mintfrost.colortranslator2.GraphicalTools.decodeYUV420SP;
-import static com.mintfrost.colortranslator2.GraphicalTools.getHexText;
+import static com.mintfrost.colortranslator3.GraphicalTools.decodeYUV420SP;
+import static com.mintfrost.colortranslator3.GraphicalTools.getHexText;
 
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback, Camera.PreviewCallback {
     private static final String LOG_TAG = CameraPreview.class.getSimpleName();

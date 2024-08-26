@@ -1,4 +1,4 @@
-package com.mintfrost.colortranslator2;
+package com.mintfrost.colortranslator3;
 
 import android.graphics.Color;
 
